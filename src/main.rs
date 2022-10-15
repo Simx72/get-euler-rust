@@ -48,8 +48,8 @@ fn calc_accuracy(s1: &str, s2: &str) -> f32 {
 
 fn main() {
     let metodos = vec![
-        "Metodo de cuotas: (1 + 1/n)^n",
-        "Metodo de series: 1 - 1/1! + 1/2!...",
+        "Metodo de cuotas: (1 + 1/n)^n\t\t(menos cpu)",
+        "Metodo de series: 1 - 1/1! + 1/2!...\t\t(mas precisión)",
     ];
 
     let method = Select::new("Con que metodo quieres calcular e", metodos.clone())
